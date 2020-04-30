@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
+
+
+body {
+  font-family: 'Times New Roman', Times, sans-serif;
+  background-color: #f4f4f4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: #333;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.image .content {
+  border-radius: 25px;
+  position: absolute;
+  bottom:0;
+  top:0;
+  left:0;
+  float:left;
+  margin-top:76px;
+  
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(48, 72, 94, 0.7); /* Black background with 0.5 opacity */
+  color:white;
+  width: 30%;
+  padding: 20px;
+  line-height: 1.6em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+  font-size:"30%";
+  line-height:1.6em;
 }
-
-.App-link {
-  color: #61dafb;
+p{
+  font-size:"20%"
 }
+.b {
+  position:absolute;
+  bottom: 0;
+  left:0;
+}
+.login2 .content {
+  border-radius: 25px;
+  position: absolute;
+  bottom:0;
+  top:0;
+  right:0;
+  float:center;
+  margin-top:165px;
+  margin-right:480px;
+  margin-left:150px;
+  margin-bottom: 100px;
+  background:rgb(185, 181, 181);
+  background: rgba(255,255,255, 0.4); /* Black background with 0.5 opacity */
+  color:Black;
+  width: 30%;
+  padding: 20px;
+  line-height: 1.6em;
+}
+.getstarted {
+  position: absolute;
+  bottom:0;
+  top:0;
+  right:0;
+  border-right: "100px";
+  float:left;
+  margin-top:200px;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  background: rgba(48, 72, 94, 0); /* Black background with 0.5 opacity */
+  color:white;
+  width: 30%;
+  line-height: 1.6em;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.getstarted .line1 {
+  font-family: sans-serif;
+  font-size: "300%";
+  font-weight: bolder;
+  
+}
+.getstarted .line3 {
+  font-family: sans-serif;
+  font-size: "300%";
+  border-right: "150px";
+  font-weight: bolder;
+}
+.getstarted .line4 {
+  font-family: sans-serif;
+  font-size: "300%";
+  font-weight: bolder;
+}
+.getstarted .line5 {
+  font-family: sans-serif;
+  font-size: "300%";
+  border-right: "150px";
+  font-weight: bolder;
+}
+.Form {
+  line-height: 1.6em;
+  padding-inline-start: 1.6em;
+  padding-left: 22%;
+  padding-right: 15%;
+  padding-bottom: 22%;
+}
+.Form .Loginpassword {
+  margin-top: 15%;
+}
+.Form .LoginButton {
+  margin-top: 18%;
+  margin-left: 27%;
+}
+.Form1 .Loginemail{
+  margin-top:5% ;
+
+}
+.Form1 .Loginpassword {
+  margin-top:5%
+}
+.Form1 {
+  line-height: 1.6em;
+  padding-inline-start: 1.6em;
+  padding-left: 22%;
+  padding-right: 15%;
+  padding-bottom: 22%;
+}
+.Form1 .RegisterButton {
+  margin-top:18%;
+  margin-left:22%
+}
+.welcome {
+  position:absolute;
+  top:0;
+  bottom:0;
+  margin-top:1px;
+  
+  font-size:150%;
+  background:rgb(189, 185, 185) ;
+  background: rgba(206, 208, 211, 0.7);
+  height: 100%;
+  width: 100%;
+}
+.welcome .welcome1 {
+  margin-top:220px;
+  font-size: 450%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-kerning: auto;
+  margin-left: 450px;
+  animation-iteration-count: 3;
+  
+}
+.Enterbutton {
+    
+  margin-left: 650px;
+  
 }
